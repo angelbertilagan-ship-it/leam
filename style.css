@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+}
+
+.main {
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(starry.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+}
+
+.title {
+    color: #cc5505;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 20px;
+    float: left;
+    padding-top: 15px;
+    padding: 100px;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+   flex: 33.33%;
+}
+
+img {
+    padding-top: 300px;
+    padding-left: 100px;
+    width: 400px;
+}
+
+p {
+ color: #cc5505;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 20px;
+    float: left;
+    padding-top: 15px;
+    padding: 100px;
+}
